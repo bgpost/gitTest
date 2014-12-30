@@ -18,5 +18,3 @@ public enum Day {
         return "On " + this.toString() + " I feel " + WordUtils.uncapitalize(this.feeling);
     }
 }
-
-buggy Change from somewhere
