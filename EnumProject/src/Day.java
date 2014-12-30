@@ -1,13 +1,17 @@
+import java.util.Locale;
+
 import org.apache.commons.lang3.text.WordUtils;
 
 public enum Day {
 
-    MONDAY("Great"), TUESDAY("Even better"), WEDNESDAY("Okay ");
+    MONDAY("Great", Locale.GERMANY), TUESDAY("Even better", Locale.CANADA), WEDNESDAY("Okay ", Locale.US);
 
     private String feeling;
+    private Locale locale;
 
-    private Day(final String feeling) {
+    private Day(final String feeling, Locale locale) {
         this.feeling = feeling;
+        this.locale = locale;
     }
 
     public String toString() {
