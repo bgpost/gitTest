@@ -9,13 +9,13 @@ public final class TestApp {
     
     public static void main(final String[] args) {
 
-        for (Day d : Day.values()) {
-            System.out.println(d.message());
+        for (Day day : Day.values()) {
+            System.out.println(day.message() + " (" + day.language() +")");
         }
         
         System.out.println("Number of Days: " + Day.values().length);
+        
     }
-
 
 }
 
