@@ -4,7 +4,7 @@ import org.apache.commons.lang3.text.WordUtils;
 
 public enum Day {
 
-    MONDAY("Great", Locale.GERMANY), TUESDAY("Even better", Locale.CANADA), WEDNESDAY("Okay ", Locale.US), THURSDAY("like something is missing", Locale.GERMANY);
+    MONDAY("Great", Locale.GERMANY), TUESDAY("Even better", Locale.CANADA), WEDNESDAY("Okay ", Locale.US), THURSDAY("like something is missing", Locale.GERMANY), FRIDAY("done", Locale.CHINESE);
 
     private String feeling;
     private Locale locale;
