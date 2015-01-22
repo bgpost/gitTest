@@ -12,6 +12,8 @@ public final class TestApp {
         for (Day d : Day.values()) {
             System.out.println(d.message());
         }
+        
+        System.out.println("Number of Days: " + Day.values().length);
     }
 
 
