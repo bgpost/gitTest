@@ -17,6 +17,7 @@ public final class TestApp {
         
     }
     // My first comment
+    // Here comes the second comment
 }
 
 // This is the super important comment in the TestApp
