@@ -16,7 +16,7 @@ public final class TestApp {
         System.out.println("Number of Days: " + Day.values().length);
         
     }
-
+    // My first comment
 }
 
 // This is the super important comment in the TestApp
