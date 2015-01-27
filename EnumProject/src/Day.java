@@ -21,8 +21,11 @@ public enum Day {
     public String message() {
         return "On " + this.toString() + " I feel " + WordUtils.uncapitalize(this.feeling);
     }
+
     
     public String language() {
         return locale.getLanguage();
     }
+
+    // This is a hotfix comment 
 }
