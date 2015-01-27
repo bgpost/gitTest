@@ -21,6 +21,7 @@ public final class TestApp {
     // And a third comment
     
     // Just one line on develop
+    // A second line on develop
 }
 
 // This is the super important comment in the TestApp
