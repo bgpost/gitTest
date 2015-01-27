@@ -21,4 +21,5 @@ public enum Day {
     public String message() {
         return "On " + this.toString() + " I feel " + WordUtils.uncapitalize(this.feeling);
     }
+    // This is a hotfix comment 
 }
